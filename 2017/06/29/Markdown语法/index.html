@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <title>聪聪的博客</title>
+  <meta name="description" content="随便写写" />
+  <meta name="keywords" content="Java,WEB开发" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="alternate" href="/atom.xml" title="聪聪的博客">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="概述宗旨Markdown 的目标是实现「易读易写」。Markdown 的语法全由一些符号所组成，这些符号经过精挑细选，其作用一目了然。比如：在文字两旁加上星号，看起来就像强调。Markdown 的列表看起来，嗯，就是列表。Markdown 的区块引用看起来就真的像是引用一段文字，就像你曾在电子邮件中见过的那样。
+特殊字符自动转换在 HTML 文件中，有两个字符需要特殊处理： &amp;lt; 和 &amp;amp">
+<meta property="og:type" content="article">
+<meta property="og:title" content="聪聪的博客">
+<meta property="og:url" content="http://yoursite.com/2017/06/29/Markdown语法/index.html">
+<meta property="og:site_name" content="聪聪的博客">
+<meta property="og:description" content="概述宗旨Markdown 的目标是实现「易读易写」。Markdown 的语法全由一些符号所组成，这些符号经过精挑细选，其作用一目了然。比如：在文字两旁加上星号，看起来就像强调。Markdown 的列表看起来，嗯，就是列表。Markdown 的区块引用看起来就真的像是引用一段文字，就像你曾在电子邮件中见过的那样。
+特殊字符自动转换在 HTML 文件中，有两个字符需要特殊处理： &amp;lt; 和 &amp;amp">
+<meta property="og:updated_time" content="2017-04-14T04:03:11.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="聪聪的博客">
+<meta name="twitter:description" content="概述宗旨Markdown 的目标是实现「易读易写」。Markdown 的语法全由一些符号所组成，这些符号经过精挑细选，其作用一目了然。比如：在文字两旁加上星号，看起来就像强调。Markdown 的列表看起来，嗯，就是列表。Markdown 的区块引用看起来就真的像是引用一段文字，就像你曾在电子邮件中见过的那样。
+特殊字符自动转换在 HTML 文件中，有两个字符需要特殊处理： &amp;lt; 和 &amp;amp">
+    
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href='//cdn.bootcss.com/node-waves/0.7.5/waves.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="/style.css">
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+</head>
+
+<body>
+  <div id="loading-bar-wrapper">
+  <div id="loading-bar"></div>
+</div>
+
+
+  <script>setLoadingBarProgress(20)</script> 
+  <header class="l_header">
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+			<a class="logo flat-box" href='/' >
+				聪聪的博客
+			</a>
+			<div class='menu'>
+				<ul class='h-list'>
+					
+				</ul>
+				<div class='underline'></div>
+			</div>
+			
+				<div class="m_search">
+					<form name="searchform" class="form u-search-form">
+						<input type="text" class="input u-search-input" placeholder="Search" />
+						<span class="icon icon-search"></span>
+					</form>
+				</div>
+			
+			<ul class='switcher h-list'>
+				
+					<li class='s-search'><a href='javascript:void(0)'><span class="icon icon-search flat-box"></span></a></li>
+				
+				<li class='s-menu'><a href='javascript:void(0)'><span class="icon icon-menu flat-box"></span></a></li>
+			</ul>
+		</div>
+		
+		<div class='nav-sub container container--flex'>
+			<a class="logo" class="flat-box" href='javascript:void(0)'>
+				Word of Forks
+			</a>
+
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a href='javascript:void(0)'><span class="icon icon-chat_bubble_outline flat-box"></span></a></li>
+				<li class='s-top'><a href='javascript:void(0)'><span class="icon icon-arrow_upward flat-box"></span></a></li>
+				<li class='s-toc'><a href='javascript:void(0)'><span class="icon icon-format_list_numbered flat-box"></span></a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<aside class="menu-phone">
+	<nav>
+		
+	</nav>
+</aside>
+
+    <script>setLoadingBarProgress(40);</script>
+  <div class="l_body">
+    <div class='container clearfix'>
+      <div class='l_main'>
+        <article id="post-Markdown语法"
+  class="post white-box article-type-post"
+  itemscope itemprop="blogPost">
+	<section class='meta'>
+	<h2 class="title">
+  	<a href="/2017/06/29/Markdown语法/">
+    	
+    </a>
+  </h2>
+	<time>
+	  6月 29, 2017
+	</time>
+	
+	</section>
+	
+		<section class="toc-wrapper"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#概述"><span class="toc-number">1.</span> <span class="toc-text">概述</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#宗旨"><span class="toc-number">1.1.</span> <span class="toc-text">宗旨</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#特殊字符自动转换"><span class="toc-number">1.2.</span> <span class="toc-text">特殊字符自动转换</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#区块元素"><span class="toc-number">2.</span> <span class="toc-text">区块元素</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#段落和换行"><span class="toc-number">2.1.</span> <span class="toc-text">段落和换行</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#标题"><span class="toc-number">2.2.</span> <span class="toc-text">标题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#区块引用-Blockquotes"><span class="toc-number">2.3.</span> <span class="toc-text">区块引用 Blockquotes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#列表"><span class="toc-number">2.4.</span> <span class="toc-text">列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码区块"><span class="toc-number">2.5.</span> <span class="toc-text">代码区块</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#分隔线"><span class="toc-number">2.6.</span> <span class="toc-text">分隔线</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#区段元素"><span class="toc-number">3.</span> <span class="toc-text">区段元素</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#链接"><span class="toc-number">3.1.</span> <span class="toc-text">链接</span></a></li></ol></li></ol></section>
+	
+	<section class="article typo">
+  	<div class="article-entry" itemprop="articleBody">
+    	<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><h2 id="宗旨"><a href="#宗旨" class="headerlink" title="宗旨"></a>宗旨</h2><p>Markdown 的目标是实现「易读易写」。<br>Markdown 的语法全由一些符号所组成，这些符号经过精挑细选，其作用一目了然。比如：在文字两旁加上星号，看起来就像<em>强调</em>。Markdown 的列表看起来，嗯，就是列表。Markdown 的区块引用看起来就真的像是引用一段文字，就像你曾在电子邮件中见过的那样。</p>
+<h2 id="特殊字符自动转换"><a href="#特殊字符自动转换" class="headerlink" title="特殊字符自动转换"></a>特殊字符自动转换</h2><p>在 HTML 文件中，有两个字符需要特殊处理： &lt; 和 &amp; 。 &lt; 符号用于起始标签，&amp; 符号则用于标记 HTML 实体，如果你只是想要显示这些字符的原型，你必须要使用实体的形式，像是 &lt; 和 &amp;。<br>&amp; 字符尤其让网络文档编写者受折磨，如果你要打「AT&amp;T」 ，你必须要写成「AT&amp;T」。而网址中的 &amp; 字符也要转换。比如你要链接到：</p>
+<blockquote>
+<p> <a href="http://images.google.com/images?num=30&amp;q=larry+bird" target="_blank" rel="external">http://images.google.com/images?num=30&amp;q=larry+bird</a>  </p>
+</blockquote>
+<p>你必须要把网址转换写为：</p>
+<blockquote>
+<p><a href="http://images.google.com/images?num=30&amp;amp;q=larry+bird" target="_blank" rel="external">http://images.google.com/images?num=30&amp;amp;q=larry+bird</a>  </p>
+</blockquote>
+<p>才能放到链接标签的<code>href</code>属性里。不用说也知道这很容易忽略，这也可能是 HTML 标准检验所检查到的错误中，数量最多的。</p>
+<p>Markdown 让你可以自然地书写字符，需要转换的由它来处理好了。如果你使用的 &amp; 字符是 HTML 字符实体的一部分，它会保留原状，否则它会被转换成 &amp;amp;。 </p>
+<h1 id="区块元素"><a href="#区块元素" class="headerlink" title="区块元素"></a>区块元素</h1><h2 id="段落和换行"><a href="#段落和换行" class="headerlink" title="段落和换行"></a>段落和换行</h2><p>一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行（空行的定义是显示上看起来像是空的，便会被视为空行。比方说，若某一行只包含空格和制表符，则该行也会被视为空行）。普通段落不该用空格或制表符来缩进。  </p>
+<p>「由一个或多个连续的文本行组成」这句话其实暗示了 Markdown 允许段落内的强迫换行（插入换行符），这个特性和其他大部分的 text-to-HTML 格式不一样（包括 Movable Type 的「Convert Line Breaks」选项），其它的格式会把每个换行符都转成 <code>&lt;br /&gt;</code> 标签。</p>
+<p>如果你确实想要依赖 Markdown 来插入<code>&lt;br /&gt;</code> 标签的话，在插入处先按入两个以上的空格然后回车。</p>
+<p>的确，需要多费点事（多加空格）来产生 <code>&lt;br /&gt;</code> ，但是简单地「每个换行都转换为<code>&lt;br /&gt;</code>」的方法在 Markdown 中并不适合， Markdown 中 email 式的 区块引用 和多段落的 列表 在使用换行来排版的时候，不但更好用，还更方便阅读。</p>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>Markdown 支持两种标题的语法，类 Setext 和类 atx 形式。</p>
+<p>类 Setext 形式是用底线的形式，利用 = （最高阶标题）和 - （第二阶标题），例如：  </p>
+<pre><code>This is an H1  
+=============
+
+This is an H2
+-------------
+</code></pre><p>任何数量的 <code>=</code> 和 <code>-</code> 都可以有效果。  </p>
+<p>类 Atx 形式则是在行首插入 1 到 6 个 # ，对应到标题 1 到 6 阶，例如：  </p>
+<pre><code># 这是 H1
+
+## 这是 H2
+
+###### 这是 H6
+</code></pre><p>你可以选择性地「闭合」类 atx 样式的标题，这纯粹只是美观用的，若是觉得这样看起来比较舒适，你就可以在行尾加上 <code>#</code>，而行尾的 <code>#</code> 数量也不用和开头一样（行首的井字符数量决定标题的阶数）：  </p>
+<pre><code># 这是 H1 #
+
+## 这是 H2 ##
+
+### 这是 H3 ######
+</code></pre><h2 id="区块引用-Blockquotes"><a href="#区块引用-Blockquotes" class="headerlink" title="区块引用 Blockquotes"></a>区块引用 Blockquotes</h2><p>Markdown 标记区块引用是使用类似 email 中用 <code>&gt;</code> 的引用方式。如果你还熟悉在 email 信件中的引言部分，你就知道怎么在 Markdown 文件中建立一个区块引用，那会看起来像是你自己先断好行，然后在每行的最前面加上 <code>&gt;</code> ：</p>
+<pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+&gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+&gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+&gt; 
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+&gt; id sem consectetuer libero luctus adipiscing.
+</code></pre><p>Markdown 也允许你偷懒只在整个段落的第一行最前面加上 <code>&gt;</code> ：</p>
+<pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.
+</code></pre><p>区块引用可以嵌套（例如：引用内的引用），只要根据层次加上不同数量的 <code>&gt;</code> ：</p>
+<pre><code>&gt; This is the first level of quoting.
+&gt;
+&gt; &gt; This is nested blockquote.
+&gt;
+&gt; Back to the first level.
+</code></pre><p>引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等：</p>
+<pre><code>&gt; ## 这是一个标题。
+&gt; 
+&gt; 1.   这是第一行列表项。
+&gt; 2.   这是第二行列表项。
+&gt; 
+&gt; 给出一些例子代码：
+&gt; 
+&gt;     return shell_exec(&quot;echo $input | $markdown_script&quot;);
+</code></pre><p>任何像样的文本编辑器都能轻松地建立 email 型的引用。例如在 BBEdit 中，你可以选取文字后然后从选单中选择增加引用阶层。</p>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>Markdown 支持有序列表和无序列表。</p>
+<p>无序列表使用星号、加号或是减号作为列表标记：</p>
+<pre><code>*   Red
+*   Green
+*   Blue
+</code></pre><p>等同于：</p>
+<pre><code>+   Red
++   Green
++   Blue
+</code></pre><p>也等同于：</p>
+<pre><code>-   Red
+-   Green
+-   Blue
+</code></pre><p>有序列表则使用数字接着一个英文句点：</p>
+<pre><code>1.  Bird
+2.  McHale
+3.  Parish
+</code></pre><p>很重要的一点是，你在列表标记上使用的数字并不会影响输出的 HTML 结果，上面的列表所产生的 HTML 标记为：</p>
+<pre><code>&lt;ol&gt;
+&lt;li&gt;Bird&lt;/li&gt;
+&lt;li&gt;McHale&lt;/li&gt;
+&lt;li&gt;Parish&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre><p>如果你的列表标记写成：</p>
+<pre><code>1.  Bird
+1.  McHale
+1.  Parish
+</code></pre><p>或甚至是：</p>
+<pre><code>3. Bird
+1. McHale
+8. Parish
+</code></pre><p>你都会得到完全相同的 HTML 输出。重点在于，你可以让 Markdown 文件的列表数字和输出的结果相同，或是你懒一点，你可以完全不用在意数字的正确性。</p>
+<p>如果你使用懒惰的写法，建议第一个项目最好还是从 1. 开始，因为 Markdown 未来可能会支持有序列表的 start 属性。</p>
+<p>列表项目标记通常是放在最左边，但是其实也可以缩进，最多 3 个空格，项目标记后面则一定要接着至少一个空格或制表符。</p>
+<p>要让列表看起来更漂亮，你可以把内容用固定的缩进整理好：</p>
+<pre><code>*   Lorem ipsum dolor sit amet, consectetuer     adipiscing elit.
+    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+    viverra nec, fringilla in, laoreet vitae,risus.
+*   Donec sit amet nisl. Aliquam semperipsum sit amet velit.
+    Suspendisse id sem consectetuer libero luctus adipiscing.
+</code></pre><p>但是如果你懒，那也行：</p>
+<pre><code>*   Lorem ipsum dolor sit amet, consectetuer     adipiscing elit.
+    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+    viverra nec, fringilla in, laoreet vitae,risus.
+*   Donec sit amet nisl. Aliquam semperipsumsit amet velit.
+    Suspendisse id sem consectetuer libero luctus adipiscing.
+</code></pre><p>如果列表项目间用空行分开，在输出 HTML 时 Markdown 就会将项目内容用 <code>&lt;p&gt;</code> 标签包起来，举例来说：</p>
+<pre><code>*   Bird
+*   Magic
+</code></pre><p>会被转换为：</p>
+<pre><code>&lt;ul&gt;
+&lt;li&gt;Bird&lt;/li&gt;
+&lt;li&gt;Magic&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre><p>但是这个：</p>
+<pre><code>*   Bird
+
+*   Magic
+</code></pre><p>会被转换为：</p>
+<pre><code>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bird&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Magic&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre><p>列表项目可以包含多个段落，每个项目下的段落都必须缩进 4 个空格或是 1 个制表符：</p>
+<pre><code>1.  This is a list item with two paragraphs. Lorem ipsum dolor
+    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+    mi posuere lectus.
+
+    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+    sit amet velit.
+
+2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+</code></pre><p>如果你每行都有缩进，看起来会看好很多，当然，再次地，如果你很懒惰，Markdown 也允许：</p>
+<pre><code>*   This is a list item with two paragraphs.
+
+    This is the second paragraph in the list item. You&apos;re
+    only required to indent the first line. Lorem ipsum dolor
+    sit amet, consectetuer adipiscing elit.
+
+*   Another item in the same list.
+</code></pre><p>如果要在列表项目内放进引用，那 <code>&gt;</code> 就需要缩进：</p>
+<pre><code>*   A list item with a blockquote:
+
+    &gt; This is a blockquote
+    &gt; inside a list item.
+</code></pre><p>如果要放代码区块的话，该区块就需要缩进两次，也就是 8 个空格或是 2 个制表符：</p>
+<pre><code>*   一列表项包含一个列表区块：
+
+        &lt;代码写在这&gt;
+</code></pre><p>当然，项目列表很可能会不小心产生，像是下面这样的写法：</p>
+<pre><code>1986. What a great season.
+</code></pre><p>换句话说，也就是在行首出现数字-句点-空白，要避免这样的状况，你可以在句点前面加上反斜杠。</p>
+<pre><code>1986\. What a great season.
+</code></pre><h2 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h2><p>和程序相关的写作或是标签语言原始码通常会有已经排版好的代码区块，通常这些区块我们并不希望它以一般段落文件的方式去排版，而是照原来的样子显示，Markdown 会用 <code>&lt;pre&gt;</code> 和 <code>&lt;code&gt;</code> 标签来把代码区块包起来。</p>
+<p>要在 Markdown 中建立代码区块很简单，只要简单地缩进 4 个空格或是 1 个制表符就可以，例如，下面的输入：</p>
+<pre><code>这是一个普通段落：
+
+    这是一个代码区块。
+</code></pre><p>Markdown 会转换成：</p>
+<pre><code>&lt;p&gt;这是一个普通段落：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;这是一个代码区块。
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre><p>这个每行一阶的缩进（4 个空格或是 1 个制表符），都会被移除，例如：</p>
+<pre><code>Here is an example of AppleScript:
+
+    tell application &quot;Foo&quot;
+        beep
+    end tell
+</code></pre><p>会被转换为：</p>
+<pre><code>&lt;p&gt;Here is an example of AppleScript:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tell application &quot;Foo&quot;
+    beep
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre><p>一个代码区块会一直持续到没有缩进的那一行（或是文件结尾）。</p>
+<p>在代码区块里面， <code>&amp;</code> 、 <code>&lt;</code> 和 <code>&gt;</code> 会自动转成 HTML 实体，这样的方式让你非常容易使用 Markdown 插入范例用的 HTML 原始码，只需要复制贴上，再加上缩进就可以了，剩下的 Markdown 都会帮你处理，例如：</p>
+<pre><code>&lt;div class=&quot;footer&quot;&gt;
+&amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre><p>会被转换为：</p>
+<pre><code>&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;footer&quot;&amp;gt;
+    &amp;amp;copy; 2004 Foo Corporation
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre><p>代码区块中，一般的 Markdown 语法不会被转换，像是星号便只是星号，这表示你可以很容易地以 Markdown 语法撰写 Markdown 语法相关的文件。</p>
+<h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<pre><code>* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
+</code></pre><h1 id="区段元素"><a href="#区段元素" class="headerlink" title="区段元素"></a>区段元素</h1><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>Markdown 支持两种形式的链接语法： 行内式和参考式两种形式。</p>
+<p>不管是哪一种，链接文字都是用 [方括号] 来标记。</p>
+<p>要建立一个行内式的链接，只要在方块括号后面紧接着圆括号并插入网址链接即可，如果你还想要加上链接的 title 文字，只要在网址后面，用双引号把 title 文字包起来即可，例如：</p>
+<pre><code>This is [an example](http://example.com/ &quot;Title&quot;) inline link.
+
+[This link](http://example.net/) has no title attribute.
+</code></pre><p>会产生：</p>
+<pre><code>&lt;p&gt;This is &lt;a href=&quot;http://example.com/&quot; title=&quot;Title&quot;&gt;
+an example&lt;/a&gt; inline link.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://example.net/&quot;&gt;This link&lt;/a&gt; has no
+title attribute.&lt;/p&gt;
+</code></pre><p>如果你是要链接到同样主机的资源，你可以使用相对路径：</p>
+<pre><code>See my [About](/about/) page for details.
+</code></pre><p>参考式的链接是在链接文字的括号后面再接上另一个方括号，而在第二个方括号里面要填入用以辨识链接的标记：</p>
+<pre><code>This is [an example][id] reference-style link.
+</code></pre><p>你也可以选择性地在两个方括号中间加上一个空格：</p>
+<pre><code>This is [an example] [id] reference-style link.
+</code></pre><p>接着，在文件的任意处，你可以把这个标记的链接内容定义出来：</p>
+<pre><code>[id]: http://example.com/  &quot;Optional Title Here&quot;
+</code></pre><p>链接内容定义的形式为：</p>
+<ul>
+<li>方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字</li>
+<li>接着一个冒号</li>
+<li>接着一个以上的空格或制表符</li>
+<li>接着链接的网址</li>
+<li>选择性地接着 title 内容，可以用单引号、双引号或是括弧包着</li>
+</ul>
+<p>下面这三种链接的定义都是相同：</p>
+<pre><code>[foo]: http://example.com/  &quot;Optional Title Here&quot;
+[foo]: http://example.com/  &apos;Optional Title Here&apos;
+[foo]: http://example.com/  (Optional Title Here)
+</code></pre><p><strong>请注意</strong>：有一个已知的问题是 Markdown.pl 1.0.1 会忽略单引号包起来的链接 title。</p>
+<p>链接网址也可以用方括号包起来：</p>
+<pre><code>[id]: &lt;http://example.com/&gt;  &quot;Optional Title Here&quot;
+</code></pre><p>你也可以把 title 属性放到下一行，也可以加一些缩进，若网址太长的话，这样会比较好看：</p>
+<pre><code>[id]: http://example.com/longish/path/to/resource/here
+&quot;Optional Title Here&quot;
+</code></pre><p>网址定义只有在产生链接的时候用到，并不会直接出现在文件之中。</p>
+<p>链接辨别标签可以有字母、数字、空白和标点符号，但是并不区分大小写，因此下面两个链接是一样的：</p>
+<pre><code>[link text][a]
+[link text][A]
+</code></pre>
+  	</div>
+	  
+		
+	
+		<div class="art-item-footer">
+				
+				
+					<span class="art-item-right">next：<a href="/2017/04/02/第一篇博客/" rel="next"  title="第一篇博客">
+						第一篇博客
+					</a><i class="icon icon-chevron-thin-right"></i></span>
+				
+		</div>
+	
+	</section>
+	
+</article>
+<script>
+	window.subData = {
+		title: '',
+		tools: true
+	}
+</script>
+
+      </div>
+      <aside class='l_side'>
+        
+      </aside>
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+  </div>
+  <footer id="footer" class="clearfix">
+
+	<div class="social-wrapper">
+  	
+      
+        <a href="https://github.com/YOUR_GITHUB_ID" class="social github"
+          target="_blank" rel="external">
+          <span class="icon icon-github"></span>
+        </a>
+      
+        <a href="https://twitter.com/YOUR_TWTTIER_ID" class="social twitter"
+          target="_blank" rel="external">
+          <span class="icon icon-twitter"></span>
+        </a>
+      
+        <a href="/atom.xml" class="social rss"
+          target="_blank" rel="external">
+          <span class="icon icon-rss"></span>
+        </a>
+      
+    
+  </div>
+  
+  <div>Theme <a href='https://github.com/stkevintan/hexo-theme-material-flow' class="codename">MaterialFlow</a> designed by <a href="http://keyin.me/" target="_blank">Kevin Tan</a>.</div>
+  
+</footer>
+
+
+  <script>setLoadingBarProgress(80);</script>
+  
+
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src='//cdn.bootcss.com/node-waves/0.7.5/waves.min.js'></script>
+<script src="//cdn.bootcss.com/scrollReveal.js/3.3.2/scrollreveal.min.js"></script>
+<script src="/js/jquery.fitvids.js"></script>
+<script>
+	var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
+	var GOOGLE_CUSTOM_SEARCH_ENGINE_ID = "";
+	var ALGOLIA_API_KEY = "";
+	var ALGOLIA_APP_ID = "";
+	var ALGOLIA_INDEX_NAME = "";
+  var AZURE_SERVICE_NAME = "";
+  var AZURE_INDEX_NAME = "";
+  var AZURE_QUERY_KEY = "";
+  var BAIDU_API_ID = "";
+  var SEARCH_SERVICE = "hexo";
+  var ROOT = "/"||"/";
+  if(!ROOT.endsWith('/'))ROOT += '/';
+</script>
+<script src="/js/search.js"></script>
+<script src="/js/app.js"></script>
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>
